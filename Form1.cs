@@ -20,6 +20,8 @@ namespace Nu
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("develop branch. Erik lägger till text");
+
+            MessageBox.Show("Erik");
         }
 
         private void label2_Click(object sender, EventArgs e)
