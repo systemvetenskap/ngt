@@ -20,7 +20,7 @@ namespace Nu
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("develop branch. Erik lägger till text");
-
+            MessageBox.Show("develop branch. john lägger till text");
             MessageBox.Show("Erik");
         }
 
