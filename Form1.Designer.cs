@@ -45,10 +45,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(42, 141);
+            this.button1.Location = new System.Drawing.Point(67, 241);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 44);
+            this.button1.Size = new System.Drawing.Size(712, 407);
             this.button1.TabIndex = 1;
             this.button1.Text = "Finare  knapp";
             this.button1.UseVisualStyleBackColor = true;
@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(926, 773);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
