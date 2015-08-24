@@ -69,9 +69,10 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(100, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(56, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
+            this.label2.Text = "Finare text";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 

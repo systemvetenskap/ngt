@@ -21,5 +21,10 @@ namespace Nu
         {
             MessageBox.Show("develop branch. Erik lägger till text");
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
