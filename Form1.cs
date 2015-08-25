@@ -27,7 +27,7 @@ namespace Nu
             using (SqlConnection conn = new SqlConnection())
             {
                 conn.ConnectionString = "Server=weblabb.miun.se;Port5432;Database=xxx;UserId=pgmvaru_g4;Password=trapets:SSL=true";
-               
+                MessageBox.Show("Connection successful");
             }
             
             
