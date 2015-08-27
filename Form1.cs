@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using Npgsql;
 namespace Nu
 {
     public partial class Form1 : Form
@@ -25,8 +26,8 @@ namespace Nu
 
 
             using (SqlConnection conn = new SqlConnection())
-            {
-                conn.ConnectionString = "Server=weblabb.miun.se;Port5432;Database=xxx;UserId=pgmvaru_g4;Password=trapets:SSL=true";
+            {   //port och ssl kan inte användas uppkoppling fungerar =)
+                conn.ConnectionString = "Server=weblabb.miun.se;Database=pgmvaru_g4;User Id=pgmvaru_g4;Password=trapets;";
                 MessageBox.Show("Connection successful");
             }
             
